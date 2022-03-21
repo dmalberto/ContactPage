@@ -1,12 +1,13 @@
 /* Style Settings */
 
 @import url("https://fonts.googleapis.com/css?family=Karla:400,700&display=swap");
+
 :root {
   --font: "Karla", "Karla", sans-serif;
 }
 
 body {
-  background-color: rgb(243, 242, 242);
+  background-color: #f8f9fa;
 }
 
 #logo {
@@ -83,4 +84,47 @@ body {
   -webkit-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.77);
   -moz-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.77);
   box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.77);
+}
+
+/* Font Awesome */
+@font-face {
+  font-family: "FontAwesome";
+  src: url("../fonts/fontawesome-webfont.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-globe:before {
+  content: "\f0ac";
+}
+
+.fa-money:before {
+  content: "\f0d6";
+}
+
+.fa-whatsapp:before {
+  content: "\f232";
+}
+
+.fa-instagram:before {
+  content: "\f16d";
+}
+
+.fa-linkedin:before {
+  content: "\f0e1";
+}
+
+.fa-facebook-f:before,
+.fa-facebook:before {
+  content: "\f09a";
 }
